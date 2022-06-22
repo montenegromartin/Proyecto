@@ -179,3 +179,6 @@ body {
  
 }
 
+.ImagenInicio:hover{
+  transform: scala(1.1);
+}
