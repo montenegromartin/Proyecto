@@ -1,6 +1,16 @@
 body {
   overflow-x: hidden;
   height:100%;
+
+}
+
+b{
+  background-color: #e09b32;
+  transition: background-comor .5s;
+}
+
+b:hover{
+  background-color:#e7d63d;
 }
 
 @media only screen and (min-width: 350px){
@@ -180,11 +190,3 @@ body {
  
 }
 
-b{
-  background-color: #e09b32;
-  transition: background-comor .5s;
-}
-
-b:hover{
-  background-color:#e7d63d;
-}
