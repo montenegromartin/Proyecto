@@ -6,137 +6,159 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./../styles/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <title>La cocina - Contacto</title>
 </head>
-<body>
+<body class="cuerpo">
+ 
   <!-- Cabecera de la pagina -->
-  <header class="cabecera">
-    <!-- Logo de pagina -->
-    <h1 class="titulo"><a href="./../index.html">La Cocina</a></h1>
-    <!-- Fin del logo -->
-    <!-- Barra de navegacion -->
-    <nav>
-      <!-- Enlaces del menu -->
-      <div class="botones">
-      <ul class="menu">
-        <li type="button" class="btn btn-warning"><a href="./../index.html">Inicio</a></li>
-        <li type="button" class="btn btn-warning"><a href="./menu.html">Nuestro Menu</a></li>
-        <li type="button" class="btn btn-warning"><a href="./gallery.html">Galeria</a></li>
-        <li type="button" class="btn btn-warning"><a href="./locales.html">Locales</a></li>
-        <li type="button" class="btn btn-warning"><a href="./contact.html">Contacto</a></li>
-      </ul>
+  <header class="conteiner-fluid cabecera">
+    
+    <!-- Logo de la pagina -->
+    
+    <div class="d-flex justify-content-center">
+      <a href="../index.html"><img  src="../imagenes/logo.jpeg" alt="La Cocina" title="La cocina" height="200px" width="200px" /></a>
+  </div>
+    <!-- Fin del logo la pagina -->
+    <!-- Barra de menu -->
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.instagram.com/">La Cocina</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="..//index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Nuestro Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./locales.html">Locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contacto</a>
+            </li>
+          </ul> 
+        </div>
       </div>
-      <!-- Fin de los enlaces del menu  -->
     </nav>
-    <!-- Fin de la barra de la navegacion  -->
+    <!-- Fin de la barra de menu  -->
     </header>
     <div class="cuerpo">
-    <div class="contenidoContacto">
-    <h1 class="contenidoTitulos">Hace tu reserva Online!</h1>
 
-    <section>
-      <form>
-        <label for="nombre">
-          Nombre
-        </label>
-        <br />
-        <input type="text" id="nombre" />
-        <br />
-        <label for="apellido">
-          Apellido
-        </label>
-        <br />
-        <input type="text" id="apellido" />
-        <br />
-        <label for="telefono">
-          Telefono
-        </label>
-        <br />
-        <input type="tel" id="telefono" placeholder="Ingresa tu telefono" maxlength="10" />
-        <br />
-        <label for="mail">
-          e-mail
-        </label>
-        <br />
-        <input type="email" id="mail" placeholder="Ingresa tu email" />
-        
-        <br />
-        <label for="cantidad">
-          Cantidad de personas
-        </label>
-        <br />
-        <input type="num" id="cantidad" placeholder="Ingrese cantidad de personas" maxlength="3" />
-        <br />
-        <label>
-          Local
-        </label>
-        <br />
-        <select>
-          <option selected="selected">Seleccione el local donde desea reservar</option>
-          <option>Buenos Aires 7400</option>
-          <option>Av. Valparaiso 9321</option>
-        </select>
-        <br />
-        <label>
-          Horario
-        </label>
-        <br />
-        <select>
-          <option selected="selected">Seleccione el horario que desea reservar</option>
-          <option>20 hs</option>
-          <option>20.30 hs</option>
-          <option>21 hs</option>
-          <option>21.30 hs</option>
-          <option>22 hs</option>
-          <option>22.30 hs</option>
-        </select>
-        <br />
-        <label>
-          Ya conocias el local?
-        </label>
-        <br />
-        <span>Si</span>
-        <input type="radio" name="opcion" value="Si" />
-        <span>No</span>
-        <input type="radio" name="opcion" value="No" />
-        <br />
-        <label>
-          Queres recibir info sobre nuestras promociones?
-        </label>
-        <br />
-        <span>Si</span>
-        <input type="checkbox" name="aceptar" />
-        <br />
-        <span>Acepto los terminos y condiciones</span>
-        <input type="checkbox" name="aceptar" checked="checked" />
-        <br />
-        <label for="comentarios">
-          Algun comentario extra?
-        </label>
-        <br />
-        <textarea id="comentarios" rows="10" cols="50"></textarea>
-        <br />
-        <input type="submit" />
-        <input type="reset" />
-      </form>
-    </section>
-    </div>
-    </div>
+      <div class="conteiner-fluid d-flex justify-content-center">
+        <div class="card text-bg-warning mb-5 mt-5" style="max-width: 80%;">
+          <div class="card-header formularioTitulo fontTextos">Hace tu reserva Online!</div>
+          <div class="card-body">
+            <form>
+              <label for="nombre">
+                Nombre
+              </label>
+              <br />
+              <input type="text" id="nombre" />
+              <br />
+              <label for="apellido">
+                Apellido
+              </label>
+              <br />
+              <input type="text" id="apellido" />
+              <br />
+              <label for="telefono">
+                Telefono
+              </label>
+              <br />
+              <input type="tel" id="telefono" placeholder="Ingresa tu telefono" maxlength="10" />
+              <br />
+              <label for="mail">
+                e-mail
+              </label>
+              <br />
+              <input type="email" id="mail" placeholder="Ingresa tu email" />
+              
+              <br />
+              <label for="cantidad">
+                Cantidad de personas
+              </label>
+              <br />
+              <input type="num" id="cantidad" placeholder="Ingrese cantidad de personas" maxlength="3" />
+              <br />
+              <label>
+                Local
+              </label>
+              <br />
+              <select>
+                <option selected="selected">Seleccione el local donde desea reservar</option>
+                <option>Buenos Aires 7400</option>
+                <option>Av. Valparaiso 9321</option>
+              </select>
+              <br />
+              <label>
+                Horario
+              </label>
+              <br />
+              <select>
+                <option selected="selected">Seleccione el horario que desea reservar</option>
+                <option>20 hs</option>
+                <option>20.30 hs</option>
+                <option>21 hs</option>
+                <option>21.30 hs</option>
+                <option>22 hs</option>
+                <option>22.30 hs</option>
+              </select>
+              <br />
+              <label>
+                Ya conocias el local?
+              </label>
+              <br />
+              <span>Si</span>
+              <input type="radio" name="opcion" value="Si" />
+              <span>No</span>
+              <input type="radio" name="opcion" value="No" />
+              <br />
+              <label>
+                Queres recibir info sobre nuestras promociones?
+              </label>
+              <br />
+              <span>Si</span>
+              <input type="checkbox" name="aceptar" />
+              <br />
+              <span>Acepto los terminos y condiciones</span>
+              <input type="checkbox" name="aceptar" checked="checked" />
+              <br />
+              <label for="comentarios">
+                Algun comentario extra?
+              </label>
+              <br />
+              <textarea id="comentarios" rows="10" cols="50"></textarea>
+              <br />
+              <input type="submit" />
+              <input type="reset" />
+            </form>  
+          </div>
+        </div>
+        </div>
+
+    <div>
+
     <!-- Footer -->
-    <footer class="pie">
-      <div class="footer">
-      <p>La Cocina - Cordoba, Argentina
+    <footer class="pie w-100 d-flex align-items justify-content-center flexwrap">
+   
+      <p class="pieTextos">La Cocina - Cordoba, Argentina.
         <br>
         La Cocina@ Copyright 2022. All Rights Reserved.
       </p>
-      <ul>
-        <li><a href="./contact.html">Contacto</a></li>
-        <li><a href="https://www.instagram.com" target="_blank">Seguinos en Instagram!</a></li>
-      </ul>
-      </div>
+      <div id="iconos">
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+     </div>
+      
     </footer>
-    <!-- Fin del footer  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
-</html>
+  </body>
+  </html>
