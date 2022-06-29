@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'blaca';
+	src: url('../font/Blaka.ttf');
+}
+@font-face {
+	font-family: 'regular';
+	src: url('../font/Regular.ttf');
+}
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #c64125;
+}
+header div a img {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color: #c64125;
+}
+footer p {
+  padding: 10px 10px;
+  margin-top: 10px;
+  font-family: "blaca";
+  font-size: large;
+  text-align: center;
+}
+footer div {
+  font-size: 60px;
+  padding: 10px 10px;
+  color: #c76d18;
+}
+
+/*# sourceMappingURL=styles2.css.map */
