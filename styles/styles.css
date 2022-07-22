@@ -1,0 +1,54 @@
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #c64125;
+}
+header div a img {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  background-color: #c64125;
+}
+footer p {
+  padding: 10px 10px;
+  margin-top: 10px;
+  font-family: "blaca";
+  font-size: large;
+  text-align: center;
+}
+footer div {
+  font-size: 60px;
+  padding: 10px 10px;
+  color: #c76d18;
+}
+
+@font-face {
+  font-family: "Blaca";
+  src: url("../font/Blaka.ttf");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("../font/Regular.ttf");
+}
+body {
+  background-color: #c76d18;
+}
+body article div div div {
+  font-family: "Blaca";
+  font-size: larger;
+  text-align: center;
+}
+body article div div div div {
+  font-family: "Blaca";
+  font-size: larger;
+  text-align: center;
+}
+body article div div div div p {
+  font-family: "regular";
+  font-size: medium;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
