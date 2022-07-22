@@ -24,4 +24,31 @@ footer div {
   color: #c76d18;
 }
 
+@font-face {
+  font-family: "blaca";
+  src: url("/font/Blaka.ttf");
+}
+@font-face {
+  font-family: "a";
+  src: url("/font/Blaka.ttf");
+}
+body {
+  background-color: #c76d18;
+}
+body article div div div {
+  font-family: "Blaca";
+  font-size: larger;
+  text-align: center;
+}
+body article div div div div {
+  font-family: "Blaca";
+  font-size: larger;
+  text-align: center;
+}
+body article div div div div p {
+  font-family: "regular";
+  font-size: medium;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles2.css.map */

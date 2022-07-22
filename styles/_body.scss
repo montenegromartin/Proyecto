@@ -1,11 +1,12 @@
 @font-face {
-	font-family: 'Blaca';
-	src: url('../font/Blaka.ttf');
-}
-@font-face {
-	font-family: 'Regular';
-	src: url('../font/Regular.ttf');
-}
+    font-family: 'blaca';
+    src: url('/font/Blaka.ttf'); 
+  }
+  @font-face {
+    font-family: 'a';
+    src: url('/font/Blaka.ttf'); 
+  }
+
 body {
     background-color: $backgroundSecundario;
 
