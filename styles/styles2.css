@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'Blaca';
+	src: url('../font/Blaka.ttf');
+}
+@font-face {
+	font-family: 'Regular';
+	src: url('../font/Regular.ttf');
+}
+
+
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #c64125;
+}
+header div a img {
+  height: 200px;
+  width: 200px;
+}
+
+.cuerpo {
+  background-color: #c76d18;
+}
+.menuCarta {
+  display: flex;
+  flex-direction: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.itemCarta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 800px;
+}
+
+.carousel-inner2{
+  height: 400px;
+ }
+
+ .carousel-inner2 img {
+  width: 100%;
+  max-height: 800px;
+}
+
+.carousel-inner{
+  height: 400px;
+ }
+
+footer {
+  background-color: #c64125;
+}
+footer p {
+  padding: 10px 10px;
+  margin-top: 10px;
+  font-family: "blaca";
+  font-size: large;
+  text-align: center;
+}
+footer div {
+  font-size: 60px;
+  padding: 10px 10px;
+  color: #c76d18;
+}
+
+@font-face {
+  font-family: "blaca";
+  src: url("/font/Blaka.ttf");
+}
+@font-face {
+  font-family: "a";
+  src: url("/font/Blaka.ttf");
+}
+body {
+  background-color: #c76d18;
+}
+body article div div div {
+  font-family: "Blaca";
+  font-size: larger;
+  text-align: center;
+}
+body article div div div div {
+  font-family: "Blaca";
+  font-size: larger;
+  text-align: center;
+}
+body article div div div div p {
+  font-family: "regular";
+  font-size: medium;
+  text-align: center;
+}
+
+.fontTitulos {
+  font-family: 'Blaca';
+  font-size:larger;
+  text-align: center;
+}
+.fontTextos {
+  font-family: 'regular';
+  font-size:medium;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles2.css.map */
